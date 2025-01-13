@@ -38,6 +38,7 @@ The [configuration](#configuration) section lists the parameters that can be con
 
 ```console
 kubectl -n NAMESPACE create token SERVICE_ACCOUNT
+kubectl create token admin-user -n kube-dashboard
 ```
 ## Uninstalling the Chart
 
