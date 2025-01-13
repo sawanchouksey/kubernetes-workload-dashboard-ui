@@ -33,6 +33,12 @@ The command deploys kubernetes-dashboard on the Kubernetes cluster in the `kuber
 configuration.
 The [configuration](#configuration) section lists the parameters that can be configured during installation.
 
+
+### Generate token for ui
+
+```console
+kubectl -n NAMESPACE create token SERVICE_ACCOUNT
+```
 ## Uninstalling the Chart
 
 To uninstall/delete the `kubernetes-dashboard` deployment:
