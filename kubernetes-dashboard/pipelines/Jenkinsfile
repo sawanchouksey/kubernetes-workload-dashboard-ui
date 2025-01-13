@@ -1,0 +1,8 @@
+@Library("test-jenkins-library")
+
+project_config = [
+    serviceName: "kubernetes-dashboard",
+    repoUrl: "bitbucket.test.com/scm/test/testmonitorhub.git"
+]
+
+deployKubernetesDashboard(project_config)
